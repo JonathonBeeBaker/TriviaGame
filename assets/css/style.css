@@ -1,6 +1,6 @@
 h1, .jumbotron {
 	text-align: center;
-	font-family: 'Chelsea Market', cursive;
+	font-family: 'Chelsea Market', serif;
     color: rgb(220, 80, 248);
     text-shadow: 1px 1px 2px black, 0 0 25px turquoise, 0 0 5px rgb(1, 44, 61);
 }
@@ -13,7 +13,12 @@ h1, .jumbotron {
 
 body {
 	font-family: 'Fauna One', serif;
-	text-align: center;
+    text-align: center;
+    background-color: #fff; 
+background-image: 
+linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+linear-gradient(#eee .1em, transparent .1em);
+background-size: 100% 1.2em;
 }
 
 img {
@@ -30,7 +35,7 @@ img {
   text-decoration: none;
   display: inline-block;
   font-size: 24px;
-  box-shadow: 3px 3px rgba(0, 0, 0, 0.4)
+  box-shadow: 3px 3px -10px rgba(0, 0, 0, 0.4)
 } 
  
 .btn:hover, 
