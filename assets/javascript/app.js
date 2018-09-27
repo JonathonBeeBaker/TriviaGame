@@ -170,27 +170,27 @@ $(document).ready(function(){
         }
         else if(count === 2) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/Sunny.jpg">');
+            $("#image-holder").html('<img src="assets/images/cursive.jpg">');
         }
         else if(count === 3) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/Folk.jpg">');
+            $("#image-holder").html('<img src="assets/images/Sunny.jpg">');
         }
         else if(count === 4) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/snitch.jpg">');
+            $("#image-holder").html('<img src="assets/images/bluesEx.jpg">');
         }
         else if(count === 5) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/phoenix.jpg">');
+            $("#image-holder").html('<img src="assets/images/Wild.jpg">');
         }
         else if(count === 6) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/lion.jpg">');
+            $("#image-holder").html('<img src="assets/images/O99.jpg">');
         }
         else if(count === 7) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/neville_longbottom.jpg">');
+            $("#image-holder").html('<img src="assets/images/Davey.jpg">');
         }
     }
 
