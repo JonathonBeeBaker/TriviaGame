@@ -10,13 +10,13 @@ $(document).ready(function(){
 
 // Questions and Answer Arrays
     var question = ["Who fronted the hard-core straight edge band -Fugazi- ?",
-    "Guitarist/vocalist Craig Wedren fronted what D.C. Post-Punk band ?", "The indie rock band Cursive is from what State?", "-How it Feels to be Something On- was the title track and album by what indie/emo band ?", "-Folk Implosion- was an indie rock band name referencing what other indie rock band name ?",
-    "What Utah indie band have a song titled Billy Crystal?", "Hardcore band Orange 9MM are fronted by whom?", "Davey von Bohlen was formed the side project The Promis Ring while fronting what other indie rock band?"];
-    var answer = ["Ian Mckay", "Shudder to Think", "Nebraska", "Sunny Day Real Estate", "John Spencer Blues Explosion", "Wildcat Strike", "Chaka Malik", "Cap'n Jazz", "At The Drive In", "Quicksand"];
-    var firstChoice = ["Ian Mckay", "Mind Science of the Mind", "California", "MudHoney", "Folk Hogan", "Ice Burn", "Chaka Malik", "Cap'n Jazz"];
-    var secondChoice = ["Henry Rollins", "Dambuilders", "Nebraska", "Sunny Day Real Estate", "Dinosaur Jr", "Stellah Brass", "Jeremy Enigk", "Cub Country"];
-    var thirdChoice = ["Dr. Know", "Shudder to Think", "Utah", "Temple of the Dog", "", "Sebadoh", "Isaac Brock", "Wildcat Strike", "Jawbreaker"];
-    var fourthChoice = ["Mike Fellows", "Screaming Trees", "Rhode Island", "Supersucker", "John Spencer Blues Explosion", "Band of Annuals", "Cedric Bixler", "Desert Sounds"];
+    "Guitarist/vocalist Craig Wedren fronted what D.C. Post-Punk band ?", "The indie rock band -Cursive- is from what State?", "-How it Feels to be Something On- was the title track and album by what indie/emo band ?", "-Folk Implosion- was an indie rock band name referencing what other indie rock band name ?",
+    "What Utah indie band have a song titled Billy Crystal?", "Hardcore band Orange 9MM are fronted by whom?", "Davey von Bohlen formed the side project -The Promise Ring- while fronting what other indie rock band?"];
+    var answer = ["Ian Mckay",           "Shudder to Think",         "Nebraska",    "Sunny Day Real Estate", "John Spencer Blues Explosion", "Wildcat Strike", "Chaka Malik", "Cap'n Jazz",];
+    var firstChoice = ["Ian Mckay",      "Mind Science of the Mind", "California",  "MudHoney",              "Folk Hogan",                   "Ice Burn",       "Chaka Malik", "Cap'n Jazz"];
+    var secondChoice = ["Henry Rollins", "Dambuilders",              "Nebraska",    "Sunny Day Real Estate", "Dinosaur Jr",                  "Stellah Brass",  "Jeremy Enigk", "Cub Country"];
+    var thirdChoice = ["Dr. Know",       "Shudder to Think",         "Utah",        "Temple of the Dog",     "Sebadoh",                      "Isaac Brock",    "Wildcat Strike", "Jawbreaker"];
+    var fourthChoice = ["Mike Fellows",  "Screaming Trees",          "Rhode Island", "Supersuckers",          "John Spencer Blues Explosion", "Wildcat Strike", "Cedric Bixler", "Desert Sounds"];
 
 // Show & Hide Functions
     function showHolders() {
